@@ -1,0 +1,17 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 456px;
+  grid-template-rows: auto;
+  gap: 48px 40px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+  padding-bottom: 80px;
+}
+.place:nth-child(5) {
+  padding-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 28px;
+  }
+}
