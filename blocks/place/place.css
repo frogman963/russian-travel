@@ -23,6 +23,11 @@
     padding-bottom: 72px;
   }
 }
+@media (max-width: 480px){
+  .place{
+    grid-template-columns:480px;
+  }
+}
 @media (max-width: 320px) {
   .place {
     grid-template-columns: 320px;

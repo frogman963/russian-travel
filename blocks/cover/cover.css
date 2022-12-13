@@ -13,6 +13,13 @@
     min-height: 480px;
   }
 }
+@media (max-width: 480px){
+.cover{
+  min-height: 350px;
+}
+}
+  
+
 @media (max-width: 320px) {
   .cover {
     min-height: 200px;

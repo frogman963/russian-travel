@@ -16,8 +16,12 @@
   .footer {
     max-width: 720px;
     width: 100%;
-   /*  box-sizing: border-box;
-    padding: 88px 24px 24px 24px; */
+  }
+}
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    max-width: 186px;
   }
 }
 
@@ -25,7 +29,5 @@
   .footer {
     flex-direction: column;
     max-width: 186px;
-    /* margin: 0;
-    padding: 64px 0 24px 16px; */
   }
 }

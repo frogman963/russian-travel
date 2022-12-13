@@ -19,6 +19,11 @@
     width: 100%;
   }
 }
+@media (max-width: 480px){
+.header{
+ max-width: 400px;
+}
+}
 @media (max-width: 320px) {
   .header {
     max-width: 288px;

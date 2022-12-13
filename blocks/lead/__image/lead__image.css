@@ -8,6 +8,11 @@
     min-height: 480px;
   }
 }
+@media (max-width: 480px){
+  .lead__image {
+    min-height: 200px;
+  }
+}
 @media (max-width: 320px) {
   .lead__image {
     min-height: 200px;
