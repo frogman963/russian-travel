@@ -1,0 +1,24 @@
+.footer__wrap_link{
+    margin-right: 18px;
+}
+
+.footer__wrap_link:last-child {
+    margin: 0;
+  }
+ 
+  @media (max-width: 480px) {
+  .footer__wrap_link {
+      margin: 0 0 32px 0;
+      font-size: 24px;
+      line-height: 24px;
+      padding: 0;
+    }
+  }
+  @media (max-width: 320px) {
+  .footer__wrap_link {
+      margin: 0 0 32px 0;
+      font-size: 24px;
+      line-height: 24px;
+      padding: 0;
+    }
+  }
