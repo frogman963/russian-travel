@@ -6,7 +6,7 @@
   color: #ffffff;
   text-decoration: none;
   margin-right: 18px;
-  font-family: "Inter";
+  /* font-family: "Inter"; */
 }
 .footer__link:nth-child(5) {
   margin: 0;
@@ -15,7 +15,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .footer__link {
     display: block;
     margin-bottom: 32px;

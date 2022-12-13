@@ -5,15 +5,30 @@
   line-height: 163%;
   color: #ffffff;
   margin: 0;
-  padding-bottom: 28px;
-  font-family: "Inter";
+
+ padding-bottom: 26px; 
+  /* font-family: "Inter"; */
 }
-.place__paragraph:nth-child(2) {
-  padding: 0;
+.place__paragraph:last-child{
+  padding-bottom: 0;
 }
-@media screen and (max-width: 320px) {
+
+@media (max-width: 1024px) {
+  .place__paragraph {
+    padding-bottom: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .place__paragraph {
+    padding-bottom: 25px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 163%;
   }
+
 }

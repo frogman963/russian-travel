@@ -2,25 +2,26 @@
   width: 100%;
   max-width: 984px;
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .places {
     max-width: 928px;
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .places {
-    max-width: 768px;
+    max-width: 720px;
     width: 100%;
-    padding: 90px 24px 90px 24px;
-    box-sizing: border-box;
+   
+   
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .places {
+    
     max-width: 320px;
     width: 100%;
-    padding: 64px 0 66px 0;
+  
   }
 }

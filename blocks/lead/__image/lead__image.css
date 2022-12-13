@@ -1,20 +1,15 @@
-.cover {
-  max-width: 1184px;
-  width: 100%;
-  min-height: 740px;
-}
 @media (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
+  .lead__image {
+    min-height: 580px;
   }
 }
 @media (max-width: 768px) {
-  .cover {
+  .lead__image {
     min-height: 480px;
   }
 }
 @media (max-width: 320px) {
-  .cover {
+  .lead__image {
     min-height: 200px;
   }
 }
