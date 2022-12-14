@@ -18,6 +18,13 @@
     width: 100%;
   }
 }
+@media (max-width:660px){
+  .footer{
+    flex-direction: column;
+    max-width: 200px;
+}
+  }
+
 @media (max-width: 480px) {
   .footer {
     flex-direction: column;

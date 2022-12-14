@@ -5,7 +5,7 @@
   line-height: 36px;
   margin: 0 auto;
   text-align: center;
-  width: 640px;
+  max-width: 640px;
   color: #ffffff;
   padding-bottom: 64px;
   /* font-family: "Inter"; */

@@ -16,7 +16,7 @@
 }
 @media (max-width: 480px) {
   .places {
-    max-width: 480px;
+    width:100%
   }
 }
 @media (max-width: 320px) {

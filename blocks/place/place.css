@@ -23,9 +23,14 @@
     padding-bottom: 72px;
   }
 }
+@media(max-width:660px){
+  .place{
+    grid-template-columns: 100%;
+  }
+}
 @media (max-width: 480px){
   .place{
-    grid-template-columns:480px;
+    grid-template-columns:100%;
   }
 }
 @media (max-width: 320px) {
