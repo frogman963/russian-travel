@@ -1,4 +1,4 @@
-.footer__wrap_link {
+.footer__wrap-link {
   margin-right: 18px;
 }
 
@@ -6,7 +6,7 @@
   margin: 0;
 }
 @media(max-width:660px){
-.footer__wrap_link{
+.footer__wrap-link{
   margin: 0 0 32px 0;
   font-size: 24px;
   line-height: 24px;
@@ -15,7 +15,7 @@
 
 }
 @media (max-width: 480px) {
-  .footer__wrap_link {
+  .footer__wrap-link {
     margin: 0 0 32px 0;
     font-size: 24px;
     line-height: 24px;
@@ -23,10 +23,11 @@
   }
 }
 @media (max-width: 320px) {
-  .footer__wrap_link {
+  .footer__wrap-ink {
     margin: 0 0 32px 0;
     font-size: 24px;
     line-height: 24px;
     padding: 0;
   }
 }
+

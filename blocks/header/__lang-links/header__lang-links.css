@@ -1,9 +1,13 @@
-.header__lang-links{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+.header__lang-links {
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
 }
-.header__lang-links:last-child{
-    margin-right: 0;
+@media screen and (max-width:  767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
   }
+}

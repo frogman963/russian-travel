@@ -1,25 +1,14 @@
 .footer__links {
   display: flex;
-  list-style: none;
+  list-style-type: none;
+  gap: 18px;
   padding: 0;
   margin: 0;
 }
-.footer__links:last-child {
-  margin: 0;
-}
-@media(max-width:660px){
-  .footer__links{
+@media screen and (max-width:  767px) {
+  .footer__links {
     flex-direction: column;
-  }
-}
+    gap: 32px;
 
-@media (max-width: 480px) {
-  .footer__links {
-    flex-direction: column;
-  }
-}
-@media (max-width: 320px) {
-  .footer__links {
-    flex-direction: column;
   }
 }

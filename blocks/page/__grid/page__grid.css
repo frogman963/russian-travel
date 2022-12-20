@@ -1,13 +1,14 @@
 .page__grid {
   margin: 0 auto;
+  margin-top: 92px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .page__grid {
-    margin: 0 auto;
+    margin-top: 88px;
   }
 }
-@media (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .page__grid {
-    margin: 0 auto;
+    margin-top: 64px;
   }
 }

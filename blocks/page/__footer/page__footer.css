@@ -4,21 +4,14 @@
   margin-bottom: 24px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .page__footer {
-    margin: 0 auto;
     margin-top: 88px;
-    margin-bottom: 24px;
-    /*  margin: 88px 0 24px 16px */
   }
 }
-@media (max-width: 660px) {
+@media screen and (max-width: 767px) {
   .page__footer {
-    margin: 64px 0 64px 16px;
-  }
-}
-@media (max-width: 320px) {
-  .page__footer {
-    margin: 64px 0 64px 16px;
+    margin-top: 64px;
+    margin-left: 16px;
   }
 }
